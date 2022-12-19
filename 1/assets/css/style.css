@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.header span {
+    color: white;
+    background-color: black;
+    padding: 2px 8px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2rem;
+}
+.leftSide {
+    flex-basis: 65%;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+.card img{
+    width: 100%;
+}
+h3 {
+    font-size: 24px;
+}
+.opacity {
+    font-size: 18px;
+    opacity: 0.60;
+}
+.Comment {
+    padding-right: 1rem;
+    font-weight: 600;
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+}
+.description {
+    width: 97%;
+}
+.footerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.button {
+    background-color: white;
+    font-size: 16px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ccc;
+}
+.zero {
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+    display: inline-block;
+}
+.TitleDescription {
+    font-size: 18px;
+}
+#secondCard{
+    margin-top: 3rem;
+}
+.count{
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.rightSide {
+    flex-basis: 29%;
+}
+#rightCard h4 {
+    font-size: 22px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.Posts {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    margin-top: 3rem;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.list {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding: 15px 16px;
+}
+.list:hover{
+    background-color: #ccc;
+}
+.list img {
+    width: 50px;
+}
+.list span {
+    padding-left: 1rem;
+    font-size: 17px
+}
+.headerPosts {
+    font-weight: 400;
+    font-size: 21px;
+    display: flex;
+    padding-left: 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+}
+.tags {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    margin-top: 3rem;
+}
+.tagsItem {
+    background-color: white;
+}
+.tagsItem p {
+    padding: 10px 15px;
+    line-height: 34px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.tagsItem span:first-child{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.tagsItem span {
+    padding: 4px 9px;
+    font-size: 12px;
+    background-color: #f1f1f1;
+}
+.footer {
+    color: #fff;
+    background-color: #616161;
+    height: 28vh;
+    margin-top: 3rem;
+}
+.btn {
+    padding: 2rem 1rem;
+}
+.btn button {
+    padding: 12px 24px;
+    font-size: 17px;
+    border: none;
+}
+.footer p {
+    padding: 0 1rem;
+}
+#pre {
+    cursor: not-allowed;
+    opacity: 0.3;
+    background-color: #3a3939;
+    color: white;
+}
+#next {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#next:hover{
+    background-color: #ccc;
+    color: black;
+}
+a {
+    color: white;
+    user-select: none;
+}
+
+@media only screen and (max-width: 992px)  {
+    .main{
+        flex-direction: column;
+    }
+}

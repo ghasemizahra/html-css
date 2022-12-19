@@ -1,0 +1,18 @@
+div {
+    width: 91px;
+    height: 91px;
+    background: url('../img/animation.jpg') no-repeat;
+    margin: 100px auto;
+    animation: run 0.7s steps(5) infinite;
+    
+}
+@keyframes run{
+    from{
+        background-position: 0 0;
+        transform: scale(1.2);
+    }
+    to{
+        background-position: -460px 0;
+        transform: scale(1.5);
+    }
+}
